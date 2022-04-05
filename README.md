@@ -15,9 +15,9 @@ All these features could be visually integrated to determine the best method, se
 
 ## How to run It
 
-Dependencies needed:\n
-POWSC. Requires R > =  4.1
-tidyverse, purrr, viridis, scran, DESeq2, zinbwave, BiocParallel, furrr, RhpcBLASctl, gridExtra, pROC, limma
+Dependencies needed:
+
+POWSC (requires R > =  4.1), tidyverse, purrr, viridis, scran, DESeq2, zinbwave, BiocParallel, furrr, RhpcBLASctl, gridExtra, pROC, limma
 
 The power-analysis was thought to be run from terminal, executing the **PowerAnalysis_genefilter_DE1_DE2_comb.sh** file.\n 
 
