@@ -11,3 +11,11 @@ Also, as the quality of the single cell analysis is much influenced by the numbe
 
 All these features could be visually integrated to determine the best method, sequenced cell number and expected library size to detect average expression changes, differences in propotion of expressing cells or both.
 
+#### How to run It 
+
+The power anakysis was thought to be run from terminal, executing the 
+
+file. 
+
+This file will execute the **PowerAnalysis_genefilter_dpig_mu_comb.R** script with the setted:
+_j_ cell, 
