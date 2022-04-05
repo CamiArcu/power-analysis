@@ -1,6 +1,6 @@
 # Power Analysis
 
-The program is an adaptation of the _POWSC_ algorithm implemented by [Suke]{https://github.com/suke18/POWSC}
+The program is an adaptation of the _POWSC_ algorithm implemented by [Suke](https://github.com/suke18/POWSC)
 
 The purpose of power-analysis is to evaluate the ability of a given program/method to solve a task. In this particular case, the task is detecting differentially expressed genes in a single-cell analysis. To evaluate this task, the program uses a real data set (composed by the gene expression of a single cell subtype) to simulate a new group with expression changes in only some predifined genes (which we will categorize as positive). Then it executes a differential expression analysis between both groups, using a user specified method, which will correctly detect some positives genes, while not others, thus obtaining the number of true positives, true negatives, false positives and false negatives tests. With these approach, the program calculates the power (sensitivity), the alpha (1 - specificity) or the area under the curve (AUC) of the selected method.
 
