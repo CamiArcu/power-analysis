@@ -22,12 +22,17 @@ tidyverse, purrr, viridis, scran, DESeq2, zinbwave, BiocParallel, furrr, RhpcBLA
 The power-analysis was thought to be run from terminal, executing the **PowerAnalysis_genefilter_DE1_DE2_comb.sh** file.\n 
 
 This file will execute the **PowerAnalysis_genefilter_dpig_mu_comb.R** script with the setted:
-_j_ vector of total cells (half of total cells for each evaluated group)\n, _mu_ vector of absolut log2FC of average expression between evaluated groups\n, _k_ vector of absolute difference of proportion of cells expressing the gene between evaluated groups and\n _i_ vector of run number, wich length will correspond t the times the analysis will be iterated.
 
+- _j_ vector of total cells (half of total cells for each evaluated group),
+- _mu_ vector of absolut log2FC of average expression between evaluated groups,
+- _k_ vector of absolute difference of proportion of cells expressing the gene between evaluated groups and
+- _i_ vector of run number, wich length will correspond t the times the analysis will be iterated.
 
-Similar conditions are displayed on the **PowerAnalysis_genefilter_DE1_DE2_comb_diffUMICell.sh** which was tought to evaluate different number of total UMIs on the dataset.\n
-All other perameters remains the same but the program will incoparte:\n
-_l_ vector of tranformed library sizes
+Similar conditions are displayed on the **PowerAnalysis_genefilter_DE1_DE2_comb_diffUMICell.sh** which was tought to evaluate different number of total UMIs on the dataset.
+
+All other perameters remains the same but the program will incoparte:
+
+- _l_ vector of tranformed library sizes
 
 
 User can change this parameters changinh the bash files.
