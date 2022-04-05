@@ -35,7 +35,7 @@ All other perameters remains the same but the program will incoparte:
 - _l_ vector of tranformed library sizes
 
 
-User can change this parameters changinh the bash files.
+User can change this parameters changing the bash files.
 
 All the analysis will be executed evaluating the DESeq2-zinbwave method of differential expression analysis, but user can change this looking at the **PowerAnalysis_genefilter_dpig_mu_comb.R** or **PowerAnalysis_genefilter_dpig_mu_comb_differentUMIcell.R** files, changing the _DE_Method_ parameter for all other possibles:
 
